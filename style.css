@@ -1,0 +1,52 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	color: white;
+	font-family: Aguda;
+}
+nav{
+	background:rgba(0,0,0,0);
+}
+@media {
+	nav ul{
+		background-color: none;
+	}
+	.body{
+		padding-top: 200px;
+	}
+	.img_phone{
+		margin-top: -110px;
+	}
+}
+@media (max-width: 991px) {
+	.img_phone{
+		margin-top: 0px;
+	}
+	.body{
+		padding-top: 0px;
+	}
+
+}
+.nav-link{
+	color: white !important;
+	font-weight: bold !important;
+}
+.menu_top{
+	padding: 20px !important;
+	margin-right: 40px;
+	font-family: SVN-AGUDA;
+	font-size: 25px !important;
+}
+.logo{
+	position: relative;
+}
+body{
+	background-image: url('img/JSB Wallet Web-02.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.jsb_wallet h1{
+	font-weight: bold;
+	font-size: 57px;
+}
